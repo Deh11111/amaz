@@ -1,0 +1,705 @@
+1679543081978	geckodriver	INFO	Listening on 127.0.0.1:41453
+1679543299533	geckodriver	INFO	Listening on 127.0.0.1:53159
+1679543299564	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "36667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2lAPoT"
+1679543300159	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36667
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2lAPoT/search.json.mozlz4", (void 0)))
+1679543303677	Marionette	INFO	Listening on port 46251
+DevTools listening on ws://localhost:36667/devtools/browser/6f80b85b-0bed-4c77-9169-a6e2f6e85d6f
+Read port: 46251
+1679543303937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2215 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450957/pagestyle25 (resource://devtools/server/actors/page-style.js:570:5)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+1679543673851	geckodriver	INFO	Listening on 127.0.0.1:50793
+1679543673896	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "55035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile18kpZ5"
+1679543674608	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55035
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile18kpZ5/search.json.mozlz4", (void 0)))
+1679543678028	Marionette	INFO	Listening on port 42087
+DevTools listening on ws://localhost:55035/devtools/browser/8a9fe96c-0059-48f2-9bcf-e12401ad9af8
+Read port: 42087
+1679543678334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/foresight/hubgateway line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679543935117	geckodriver	INFO	Listening on 127.0.0.1:47971
+1679543935670	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "39223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerzUeNH"
+1679543936327	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39223
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerzUeNH/search.json.mozlz4", (void 0)))
+1679543939810	Marionette	INFO	Listening on port 42507
+DevTools listening on ws://localhost:39223/devtools/browser/f5c8fad4-828e-46cc-935b-d3e0a202186e
+Read port: 42507
+1679543940069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2211 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679544037540	geckodriver	INFO	Listening on 127.0.0.1:34573
+1679544037591	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "57063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLrVHRX"
+1679544038314	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57063
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLrVHRX/search.json.mozlz4", (void 0)))
+1679544042682	Marionette	INFO	Listening on port 37989
+Read port: 37989
+1679544042759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:57063/devtools/browser/a9b35a42-5489-4d11-9554-bd85fc50eb98
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2209 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679544401860	geckodriver	INFO	Listening on 127.0.0.1:33899
+1679544401895	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "46643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecV2t2H"
+1679544402542	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:46643
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecV2t2H/search.json.mozlz4", (void 0)))
+1679544405782	Marionette	INFO	Listening on port 44425
+Read port: 44425
+DevTools listening on ws://localhost:46643/devtools/browser/e9bf576c-8b52-4d9e-b967-8d0705b654c0
+1679544405966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 2013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71loHlWMb+L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1409: TypeError: conn is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/foresight/hubgateway line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1409: TypeError: conn is undefined
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1409: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1409: TypeError: conn is undefined
+1679544601271	geckodriver	INFO	Listening on 127.0.0.1:52473
+1679544601819	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "53065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoWpaOU"
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 220: NotReadableError: Could not create directory at /tmp/rust_mozprofileoWpaOU/startupCache
+1679544602544	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53065
+1679544602640	WebDriver BiDi	WARN	Failed to create /tmp/rust_mozprofileoWpaOU/WebDriverBiDiActivePort (Could not write chunk (size = 5) to file /tmp/rust_mozprofileoWpaOU/WebDriverBiDiActivePort. The file may be corrupt.)
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 53) to file /tmp/rust_mozprofileoWpaOU/sessionCheckpoints.json.tmp. The file may be corrupt.
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 26) to file /tmp/rust_mozprofileoWpaOU/times.json. The file may be corrupt.
+[2023-03-23T04:10:02Z ERROR cert_storage] error getting security_state path: На устройстве не осталось свободного места (os error 28)
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoWpaOU/search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 90) to file /tmp/rust_mozprofileoWpaOU/sessionCheckpoint1679545411555	geckodriver	INFO	Listening on 127.0.0.1:47145
+1679545411565	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "49571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9CBfue"
+1679545412920	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49571
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9CBfue/search.json.mozlz4", (void 0)))
+1679545418170	Marionette	INFO	Listening on port 37435
+DevTools listening on ws://localhost:49571/devtools/browser/fbc32d3d-085a-4a0d-86cf-4c369b3673f4
+Read port: 37435
+Read port: 37435
+1679545420119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2200 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1679546276361	Marionette	INFO	Stopped listening on port 37435
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1679546283803	geckodriver	INFO	Listening on 127.0.0.1:41991
+1679546283817	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "34745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAHiwH3"
+1679546284526	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34745
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAHiwH3/search.json.mozlz4", (void 0)))
+1679546287966	Marionette	INFO	Listening on port 43379
+DevTools listening on ws://localhost:34745/devtools/browser/7a24a0d4-52a4-4057-9539-cd2f6938a85e
+Read port: 43379
+1679546288267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2200 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679546536746	geckodriver	INFO	Listening on 127.0.0.1:56217
+1679546536767	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "60195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9gHyxP"
+1679546537420	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60195
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9gHyxP/search.json.mozlz4", (void 0)))
+1679546540890	Marionette	INFO	Listening on port 37547
+DevTools listening on ws://localhost:60195/devtools/browser/1afda26a-cb1b-4f3d-abe5-bf206bab0119
+Read port: 37547
+1679546540992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71loHlWMb+L.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2200 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1679546578736	geckodriver	INFO	Listening on 127.0.0.1:57409
+1679546578751	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "43593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0J28zp"
+1679546579347	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43593
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0J28zp/search.json.mozlz4", (void 0)))
+1679546583803	Marionette	INFO	Listening on port 40331
+DevTools listening on ws://localhost:43593/devtools/browser/7e8ce5d5-9b29-418e-9829-47c46f8395f6
+Read port: 40331
+1679546584109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2211 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1679546680086	geckodriver	INFO	Listening on 127.0.0.1:57959
+1679546680109	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "33253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebEuJBM"
+1679546680791	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:33253
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebEuJBM/search.json.mozlz4", (void 0)))
+1679546684076	Marionette	INFO	Listening on port 40339
+Read port: 40339
+DevTools listening on ws://localhost:33253/devtools/browser/f9e24546-26bc-45c3-ac5a-a8c883607c29
+1679546684335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 906 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2213 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 354 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679546715786	geckodriver	INFO	Listening on 127.0.0.1:59699
+1679546715806	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "33061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6OOQY3"
+1679546716446	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:33061
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6OOQY3/search.json.mozlz4", (void 0)))
+1679546719990	Marionette	INFO	Listening on port 33033
+Read port: 33033
+DevTools listening on ws://localhost:33061/devtools/browser/0be5df88-bc62-4cc3-b2ed-9ea8697154fb
+1679546720353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/foresight/hubgateway line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679546841066	geckodriver	INFO	Listening on 127.0.0.1:41567
+1679546841079	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--remote-debugging-port" "45287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileq2F8jg"
+1679546841701	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45287
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq2F8jg/search.json.mozlz4", (void 0)))
+1679546844960	Marionette	INFO	Listening on port 45853
+Read port: 45853
+DevTools listening on ws://localhost:45287/devtools/browser/e233d952-715b-40de-b912-2b5b7e080e4c
+1679546845216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fcontact-us%2Fcsp%3Fref_%3Dcsl_contactus%26source%3Dcontact-us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_contactus_desktop_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=Amazon&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.pape.max_auth_age=3600&siteState=clientContext%3D144-7771899-1148032%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com%252Fhz%252Fcontact-us%252Fcsp%253Fref_%253Dcsl_contactus%2526source%253Dcontact-us%2Csignature%3Dj2BsGgcLWpkQTzszuxUBZuTfsFDsIj3D line 912 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/hz/contact-us/csp?ref_=csl_contactus&source=contact-us line 2206 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/message-us?ref_=fs_hub_gateway_mu&muClientName=foresight&paradigm=foresightBotless&callflow=964d64ad-dc95-42b5-b52c-0e791a95049b&contextData=%257B%2522customerSelectedIssues%2522%253A%25229%253A%253ASomething%2520else%253A%253A%253A57%253A%253AGifts%2520%2526%2520registries%253A%253A%253A250%253A%253AReturn%2520a%2520gift%2522%257D&returnFromLogin=1&&&&captcha_verified=1&&&captcha_verified=1& line 360 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
