@@ -2,7 +2,7 @@ from chat_bot import AmazonChatBot
 import threading
 
 # Replace with your Amazon login credentials
-email = "williamnclark@yopmail.com"
+email = "jamesjclark@yopmail.com"
 password = "qwe123"
 
 email1 = "JamesLClark@yopmail.com"
