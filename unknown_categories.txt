@@ -1,0 +1,5 @@
+7 days
+gugag
+gugag
+gugag
+("The chat is paused due to inactivity. To continue, start typing and an associate who knows your issue will join", {"cats": {"SKIP": 1.0, "MONEY": 0.0, "LINK": 0.0}})
