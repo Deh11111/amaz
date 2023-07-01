@@ -49,7 +49,7 @@ class AmazonChatBot:
                     "My_answer":f"{answer}",
                     "Skip":f"{self.skips}"
             }
-            self.send_message_tg()
+            self.send_message_tg(result)
 
     def check_start(self):
         count = 0
