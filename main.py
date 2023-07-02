@@ -1,26 +1,11 @@
-from chat_bot import AmazonChatBot
+from chating_AI.chat_bot import AmazonAccount
 import threading
 
-# Replace with your Amazon login credentials
-email = "jamesjclark@yopmail.com"
+email = "joctusedad@hotmail.com"
 password = "qwe123"
-
 email1 = "JamesLClark@yopmail.com"
 password1 = "qwe123"
-# Initialize the chat bot with the login credentials
-# Initialize the chat bots with the login credentials
-chat_bot1 = AmazonChatBot(email, password)
-# chat_bot2 = AmazonChatBot(email, password)
 
-# Define functions to run each chat bot instance in a separate thread
-def run_chat_bot1():
-    chat_bot1.run()
-
-run_chat_bot1()
-# def run_chat_bot2():
-#     chat_bot2.run() 
-
-# # Create threads for each chat bot instance and start them
 # thread1 = threading.Thread(target=run_chat_bot1)
 # thread2 = threading.Thread(target=run_chat_bot2)
 
@@ -30,4 +15,16 @@ run_chat_bot1()
 # # Wait for the threads to finish
 # thread1.join()
 # thread2.join()
+
+
+chat_bot1 = AmazonAccount(email, password)
+# chat_bot2 = AmazonChatBot(email, password)
+
+def run_chat_bot1():
+    chat_bot1.run()
+
+run_chat_bot1()
+# def run_chat_bot2():
+#     chat_bot2.run() 
+
 
