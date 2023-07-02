@@ -3,19 +3,21 @@ from account import AmazonAccount
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from filter import Filter
+import telebot
+
 # import asyncio   Я бы Хотел в run(),чтобыбыло асинхроно
 
-filter = Filter
+filter = Filter()
 
 class AmazonChatBot:
     def __init__(self, email, password):
-        self.repeat = 0
         self.skips = 0
         self.login = AmazonAccount(email, password)
         self.connect = False
         self.last_message = ""
         self.email = email
         self.password = password
+        self.bot_tg = telebot.TeleBot("5900799199:AAGggfpyJlSDP3Hl1SUmDTYj6ZNaf7Mvyrs")
 
     def run(self):
         self.login.login()
@@ -44,60 +46,44 @@ class AmazonChatBot:
             }
             self.send_message_tg(result)
 
-    def get_user_message(self):
-        while True:
-            try:
-                #####?????????????
-                message_element_answer = self.login.driver.find_elements(By.CLASS_NAME, "Message__message___1YUAv.Message__agentVariant___2NLqJ")
-                # waiting = self.login.driver.find_elements(By.CLASS_NAME, "SystemMessage__systemMessage___3u5N2")
-                obj = len(message_element_answer)
-                if obj == 0:
-                    # оставть ждать чат,через continue или написать первому
-                    return "None"
-                #От 0 до 1
-                 
-                answer = ""
-                # Находим блоки
-                for one in message_element_answer:
-                    div_text = one.find_elements(By.CLASS_NAME, "Message__textContent___ugH_K")[-1]
-                    answer_text = div_text.text
-                    if answer_text is None:
-                        continue
-                    answer += answer_text
-
-                answer = " ".join(answer.split())  
+    def get_txt_from_blocks(self):
+        try:
+            none_message = None
+            message_element_answer = self.login.driver.find_elements(By.CLASS_NAME, "Message__message___1YUAv.Message__agentVariant___2NLqJ")
+            obj = len(message_element_answer)
+            if obj == 0:
+                none_message = True
+                self.send_message("HI")
                 
-                return answer
-                
-            except:
-                pass
+            if obj == 0 and none_message is True:
+                self.skip()
+        except:
+            pass
 
-    
-    
-    def check_repeat(self):
-        repeat = self.repeat
-        if repeat == 2:
-            category = "REPEAT"
-        elif repeat == 3:
-            category = "REPEAT_2"
-        elif repeat == 4:
-            category = "REPEAT_3"
+    def get_answer_by_text():           
+        answer = ""
+        # Находим блоки
+        for one in message_element_answer:
+            div_text = one.find_elements(By.CLASS_NAME, "Message__textContent___ugH_K")[-1]
+            answer_text = div_text.text
+            if answer_text is None:
+                continue
+            answer += answer_text
 
-        return category
-    
-    
+        answer = " ".join(answer.split())  
+        
+        return answer
 
     def send_message(self, message):
-        if message == "REPEAT_1":
-            message_input = self.login.driver.find_elements(By.XPATH, "//textarea[@placeholder='Write a message...']")
-            message_input[0].send_keys("You here")
-            message_input[0].send_keys(Keys.ENTER)
-            
-            message_input = self.login.driver.find_elements(By.XPATH, "//textarea[@placeholder='Write a message...']")
-            message_input[0].send_keys(message)
-            message_input[0].send_keys(Keys.ENTER)
-            time.sleep(4)
-    
+        repeat = filter.check_repeat()
+        if repeat 
+        message_input = self.login.driver.find_elements(By.XPATH, "//textarea[@placeholder='Write a message...']")
+        message_input[0].send_keys(message)
+        message_input[0].send_keys(Keys.ENTER)
+        time.sleep(4)
+
+    def send_message_tg(self,data):
+        self.bot_tg.send_message(544591866,f"'Status':'{data['Status']}',\n'Message':'{data['Message']}',\n'Skips':'{data['Skip']}',\n'My_answer':'{data['My_answer']}'")
 
     def skip(self):
             leave_chat_script = """
@@ -128,5 +114,7 @@ class AmazonChatBot:
             time.sleep(1.7)
             self.login.driver.refresh()
 
+            # Skips plus
+            self.skips += 1
             # End connecting
             self.connect = False

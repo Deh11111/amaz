@@ -3,20 +3,12 @@ import spacy
 
 
 class Filter:
-    def __init__(self, amazon_account):
-        self.amazon_account = amazon_account
-        self.driver = amazon_account.driver
+    def __init__(self):
         self.nlp = spacy.load('chating_Ai/trained_answers')
+        self.repeat = 0
 
     # Фильтр по тексту,ответ категория 
     def get_category_by_text(self, text):
-        # Проверка есть ли сообщение! Надо поменять Эту хуйнЮ,другая проверка и не зднсь
-        if text == '':
-            
-        # В процессе написания овтета    
-        elif text == '':
-            ####
-
         trained_model = self.nlp(text)
         category = max(trained_model.cats, key=trained_model.cats.get)
         response = self.get_answer_from_category(category)
@@ -42,3 +34,7 @@ class Filter:
             return "SKIP"
         
         return answers[category]
+    
+    def check_repeat(self):
+        
+        return self.repeat

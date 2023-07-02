@@ -26,5 +26,3 @@ def run_chat_bot1():
 run_chat_bot1()
 # def run_chat_bot2():
 #     chat_bot2.run() 
-
-
