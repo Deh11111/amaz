@@ -7,14 +7,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from fake_useragent import UserAgent
+from os import path
 
 class AmazonAccount:
     def __init__(self, email, password):
         self.email = email
         self.password = password
         self.status = ""
-
-        gecko_path = '/home/sergey/Desktop/Amazonchik/geckodriver'
+        basedir = path.abspath(path.dirname(__file__))
+        gecko_path = path.join(basedir, 'geckodriver')
         urbanvpn_extension_path = '/home/sergey/Desktop/Amazonchik/urban_vpn-3.12.1.xpi'
         
         # Create a new Firefox driver instance
