@@ -3,6 +3,7 @@ from account import AmazonAccount
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from filter import Filter
+from storage import AmazonStorage
 import telebot
 
 # import asyncio   Я бы Хотел в run(),чтобыбыло асинхроно
@@ -11,28 +12,28 @@ filter = Filter()
 
 class AmazonChatBot:
     def __init__(self, email, password):
-        self.skips = 0
-        self.login = AmazonAccount(email, password)
+
         self.connect = False
-        self.last_message = ""
+        self.login = AmazonAccount(email, password)
         self.email = email
         self.password = password
         self.bot_tg = telebot.TeleBot("5900799199:AAGggfpyJlSDP3Hl1SUmDTYj6ZNaf7Mvyrs")
+        self.storage = AmazonStorage()
 
     def run(self):
         self.login.login()
         while True:   
             check_start = self.login.check_start()
-
             message = self.get_user_message()
-            category = filter.get_category_by_text(message)
-            answer = filter.get_answer_from_category(category)
-
+            self.storage.current_message = message
+            
             if answer:
                 # Send my answer
                 self.send_message(answer)
+
                 # Fix status
                 self.status = check_start
+
                 # Get support name
                 name_indus = self.login.driver.find_elements(By.CLASS_NAME, "Message__messageDisplayName___1U_jv")[-1]
 
@@ -47,32 +48,14 @@ class AmazonChatBot:
             self.send_message_tg(result)
 
     def get_txt_from_blocks(self):
-        try:
-            none_message = None
+
+        MAX_TRIES = 2
+        for i in range(MAX_TRIES):
             message_element_answer = self.login.driver.find_elements(By.CLASS_NAME, "Message__message___1YUAv.Message__agentVariant___2NLqJ")
-            obj = len(message_element_answer)
-            if obj == 0:
-                none_message = True
-                self.send_message("HI")
-                
-            if obj == 0 and none_message is True:
-                self.skip()
-        except:
-            pass
 
-    def get_answer_by_text():           
-        answer = ""
-        # Находим блоки
-        for one in message_element_answer:
-            div_text = one.find_elements(By.CLASS_NAME, "Message__textContent___ugH_K")[-1]
-            answer_text = div_text.text
-            if answer_text is None:
-                continue
-            answer += answer_text
-
-        answer = " ".join(answer.split())  
-        
-        return answer
+            if filter.check_blocks(message_element_answer):
+                self.send_message()
+                    
 
     def send_message(self, message):
         repeat = filter.check_repeat()
@@ -81,9 +64,6 @@ class AmazonChatBot:
         message_input[0].send_keys(message)
         message_input[0].send_keys(Keys.ENTER)
         time.sleep(4)
-
-    def send_message_tg(self,data):
-        self.bot_tg.send_message(544591866,f"'Status':'{data['Status']}',\n'Message':'{data['Message']}',\n'Skips':'{data['Skip']}',\n'My_answer':'{data['My_answer']}'")
 
     def skip(self):
             leave_chat_script = """

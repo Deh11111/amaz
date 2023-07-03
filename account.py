@@ -16,7 +16,7 @@ class AmazonAccount:
         self.status = ""
         basedir = path.abspath(path.dirname(__file__))
         gecko_path = path.join(basedir, 'geckodriver')
-        urbanvpn_extension_path = '/home/sergey/Desktop/Amazonchik/urban_vpn-3.12.1.xpi'
+        urbanvpn_extension_path = path.join(basedir,'urban_vpn-3.12.1.xpi')
         
         # Create a new Firefox driver instance
         profile = FirefoxProfile()
