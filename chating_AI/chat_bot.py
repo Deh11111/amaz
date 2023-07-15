@@ -23,12 +23,11 @@ class AmazonChatBot:
         self.status = 'init'
         self.tries = 0
         self.support_ignores = False
-
+        self.support_connect = False
         self.auth.login(email, password)
 
 
-    def notify(self , event):
-
+    def notify_auth(self , event):
         match event:
             case AmazonAuthHandlerEvents.AMAZON_AUTH_SUCCESSFULLY:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
@@ -37,6 +36,10 @@ class AmazonChatBot:
             case AmazonAuthHandlerEvents.AMAZON_AUTH_CAPTCHA:
                 # logic for handling captcha
                 pass
+            
+
+    def notify(self , event):    
+        match event:
             case WebDriverServiceEvents.CHAT_IS_PAUSED:
                 # make somehow chat open
                 # for example call `self.browser.click_on_start_new_chat_button()``
@@ -44,7 +47,10 @@ class AmazonChatBot:
             case WebDriverServiceEvents.CONNECTED_TO_CHAT:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 self.logger.log(f'[{now_date_time}] : Connected to chat')
-                return
+                self.support_connect = True
+                self.send_message()
+                
+                
             case WebDriverServiceEvents.SUPPORT_IS_SILENT:
 
                 if self.tries >= 3: self.skip()
@@ -59,8 +65,6 @@ class AmazonChatBot:
                 pass
             case WebDriverServiceEvents.FEEDBACK_IS_OPENED:
                 pass
-
-                
 
     def run(self):
         while True:   
@@ -99,13 +103,15 @@ class AmazonChatBot:
 
 
     def generate_message_to_support(self , message_from_support):
-        category = self.filter.get_category_in_text(message_from_support)
-        return self.filter.get_answer_from_category(category)
+        category = self.browser.get_category_in_text(message_from_support)
+        return self.browser.get_answer_from_category(category)
 
 
     def send_message(self, message):
         #    if <`repeats` from somewhere> < 3 as example  
-        self.browser.send_message_to_support(message)
+        analize_category = self.analize.get_category_in_text(message)
+        message_to_support = self.analize.get_answer_from_category(message)
+        self.browser.send_message_to_support(message_to_support)
 
 
     def ping_support_with_message(self):

@@ -1,8 +1,6 @@
 from selenium.webdriver.common.by import By
-from filter import Filter
 from auth.account import check_start
 
-filter = Filter()
 class AmazonStorage:
     def __init__(self , mediator):
         self.skips = 0

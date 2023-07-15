@@ -178,8 +178,9 @@ class WebDriverService:
             message_element_answer = self.webdriver.find_elements(By.CLASS_NAME, self.AMAZON_SUPPORT_CHAT_MESSAGE_SELECTOR)
             # waiting = self.login.driver.find_elements(By.CLASS_NAME, "SystemMessage__systemMessage___3u5N2")
             if len(message_element_answer) == 0:
-                # оставть ждать чат,через continue или написать первому
-              return self.chatbot.notify(WebDriverServiceEvents.SUPPORT_IS_SILENT)
+                self.send_message_to_support("Hello.From what team are you?")
+                time.sleep(7)
+                pass
             #От 0 до 1
              
             answer = ""
