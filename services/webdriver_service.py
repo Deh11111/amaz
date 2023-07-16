@@ -8,11 +8,13 @@ from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
-
-from auth.account import AmazonAuthHandlerEvents
 from chating_AI.chat_bot import AmazonChatBot
 
-class WebDriverServiceEvents:
+class AmazonAuthHandlerEvents:
+    AMAZON_AUTH_CAPTCHA = 'captcha'
+    AMAZON_AUTH_SUCCESSFULLY = 'signed up!'
+
+class WindowDriverServiceEvents:
     CONNECTED_TO_CHAT = 'connected!'
     CHAT_IS_PAUSED = 'paused'
     SUPPORT_IS_SILENT = 'no anwser'
@@ -22,7 +24,7 @@ class WebDriverServiceEvents:
 
 
 
-class WebDriverService:
+class WindowDriverService:
 
     webdriver = None
 
@@ -133,7 +135,7 @@ class WebDriverService:
 
             try:
                 form = self.webdriver.find_element(By.CLASS_NAME,self.AMAZON_CHAT_INPUT_SELECTOR)
-                return self.chatbot.notify(WebDriverServiceEvents.CONNECTED_TO_CHAT)
+                return self.chatbot.notify(WindowDriverServiceEvents.CONNECTED_TO_CHAT)
             except:
                 pass
 
@@ -141,7 +143,7 @@ class WebDriverService:
                 leave_support_txt = "The chat is paused due to inactivity. To continue, start typing and an associate who knows your issue will join."
                 element = self.webdriver.find_element(By.XPATH, "//*[contains(text(), '{}')]".format(leave_support_txt))
                 if leave_support_txt.strip().lower() == element.text.strip().lower() :
-                    return self.chatbot.notify(WebDriverServiceEvents.CHAT_IS_PAUSED)
+                    return self.chatbot.notify(WindowDriverServiceEvents.CHAT_IS_PAUSED)
             except:
                 pass
 
@@ -155,13 +157,13 @@ class WebDriverService:
             # Checking red window 
             try:
                 error = self.webdriver.find_element(By.CLASS_NAME, self.AMAZON_ERROR_OVERLAY_SELECTOR )
-                return self.chatbot.notify(WebDriverServiceEvents.RED_WINDOW)
+                return self.chatbot.notify(WindowDriverServiceEvents.RED_WINDOW)
             except:
                 pass
             # Checking feedback page 
             try:
                 feedback = self.webdriver.find_element(By.CLASS_NAME, self.AMAZON_FEEDBACK_PAGE_LINK_SELECTOR)
-                return self.chatbot.notify(WebDriverServiceEvents.FEEDBACK_IS_OPENED)
+                return self.chatbot.notify(WindowDriverServiceEvents.FEEDBACK_IS_OPENED)
             except:
                 pass
             tries += 1

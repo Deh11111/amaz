@@ -1,13 +1,13 @@
 import time
 from auth.account import AmazonAuthHandler , AmazonAuthHandlerEvents
-from auth.account import check_start
+# from auth.account import check_start
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from services.analize import Analize
 from services.tg_logger import TgLogger
 from storage import AmazonStorage
 import telebot
-from services.webdriver_service import WebDriverService , WebDriverServiceEvents
+from services.webdriver_service import WindowDriverService , WindowDriverServiceEvents
 from ..services.logger import LogLevels
 from datetime import datetime
 
@@ -16,14 +16,17 @@ class AmazonChatBot:
     def __init__(self, email, password):
         # self.connect = False
         self.bot_tg = telebot.TeleBot("5900799199:AAGggfpyJlSDP3Hl1SUmDTYj6ZNaf7Mvyrs")
-        self.browser = WebDriverService(self)
+        self.browser = WindowDriverService(self)
         self.logger = TgLogger()
         self.auth = AmazonAuthHandler(self)
         self.analize = Analize(self)
         self.status = 'init'
         self.tries = 0
-        self.support_ignores = False
+        self.support_writing = 0
+        self.support_ignores = False ##?
         self.support_connect = False
+
+        self.auth_success = False 
         self.auth.login(email, password)
 
 
@@ -31,46 +34,60 @@ class AmazonChatBot:
         match event:
             case AmazonAuthHandlerEvents.AMAZON_AUTH_SUCCESSFULLY:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+                self.auth_success = True
                 self.logger.log(f'[{now_date_time}] : Logged in')
                 return
             case AmazonAuthHandlerEvents.AMAZON_AUTH_CAPTCHA:
-                # logic for handling captcha
+                capcha = input("Enter the captcha and send Y")
+                if capcha == "Y":
+                    self.auth_success = True
+
                 pass
             
 
-    def notify(self , event):    
+    def notify_status_window(self , event):  
         match event:
-            case WebDriverServiceEvents.CHAT_IS_PAUSED:
+            case WindowDriverServiceEvents.CHAT_IS_PAUSED:
                 # make somehow chat open
                 # for example call `self.browser.click_on_start_new_chat_button()``
                 pass
-            case WebDriverServiceEvents.CONNECTED_TO_CHAT:
+            case WindowDriverServiceEvents.CONNECTED_TO_CHAT:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 self.logger.log(f'[{now_date_time}] : Connected to chat')
                 self.support_connect = True
                 self.send_message()
                 
                 
-            case WebDriverServiceEvents.SUPPORT_IS_SILENT:
+            case WindowDriverServiceEvents.SUPPORT_IS_SILENT:
 
-                if self.tries >= 3: self.skip()
+                if self.tries > 0: self.skip()
 
-                else: self.ping_support_with_message()
+                else: self.ping_support_afk()
 
-            case WebDriverServiceEvents.RED_WINDOW:
+            case WindowDriverServiceEvents.RED_WINDOW:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 self.logger.log(f'[{now_date_time}] : Red window alert!' , LogLevels.ERROR_LEVEL)
                 # handle red window
                 # for example call `self.browser.reopen_new_chat()` or `self.auth.change_person()`
                 pass
-            case WebDriverServiceEvents.FEEDBACK_IS_OPENED:
+            case WindowDriverServiceEvents.FEEDBACK_IS_OPENED:
                 pass
 
-    def run(self):
-        while True:   
-            self.storage = AmazonStorage(self)
+    def notify_status_chating(self , event):
+         match event:
+            case WindowDriverServiceEvents.CHAT_IS_PAUSED:
+                # make somehow chat open
+                # for example call `self.browser.click_on_start_new_chat_button()``
+                pass
+            case WindowDriverServiceEvents.CONNECTED_TO_CHAT:
+                
 
-            self.browser.open_chat_window()
+
+    def run(self):
+        self.browser.open_chat_window()
+        self.storage = AmazonStorage(self)
+        while True:   
+            
             message_from_support = self.get_message_from_support()
 
             if self.support_ignores : continue
@@ -114,11 +131,11 @@ class AmazonChatBot:
         self.browser.send_message_to_support(message_to_support)
 
 
-    def ping_support_with_message(self):
+    def ping_support_afk(self):
         self.browser.send_message_to_support("Hello?")
         #    self.tries += 1
         self.storage.update_storage({"tries" : (self.storage.get_by_key('tries') + 1)})
-        time.sleep(5)
+        time.sleep(10)
         return self.get_message_from_support()
 
 

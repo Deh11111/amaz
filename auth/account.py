@@ -8,19 +8,16 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from fake_useragent import UserAgent
 from os import path
-from services.webdriver_service import WebDriverService
+from services.webdriver_service import WindowDriverService
 from ..chating_AI.chat_bot import AmazonChatBot
 
-class AmazonAuthHandlerEvents:
-    AMAZON_AUTH_CAPTCHA = 'captcha'
-    AMAZON_AUTH_SUCCESSFULLY = 'signed up!'
 
 
 class AmazonAuthHandler:
 
     def __init__(self , mediator : AmazonChatBot):
         # self.status = ""
-        self.driver = WebDriverService()
+        self.driver = WindowDriverService()
         self.mediator = mediator
 
     def login(self , email, password ):
