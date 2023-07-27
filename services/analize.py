@@ -2,8 +2,12 @@ from chating_AI.chat_bot import AmazonChatBot
 import spacy
 from selenium.webdriver.common.by import By
 
+class AnalizeHandlerEvents:
+    AMAZON_AUTH_CAPTCHA = 'repeat'
+    AMAZON_AUTH_SUCCESSFULLY = 'signed up!'
+
 class Analize:
-    def __init__(self , mediator):
+    def __init__(self , mediator : AmazonChatBot):
         self.chatbot = mediator
         self.nlp = spacy.load('chating_Ai/trained_answers')
 

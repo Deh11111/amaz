@@ -1,13 +1,13 @@
 import time
-from auth.account import AmazonAuthHandler , AmazonAuthHandlerEvents
-from auth.account import check_start
+from services.auth import AmazonAuthHandler , AmazonAuthHandlerEvents
+from services.auth import check_start
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from services.analize import Analize
 from services.tg_logger import TgLogger
 from storage import AmazonStorage
 import telebot
-from services.webdriver_service import WebDriverService , WebDriverServiceEvents
+from services.selenium_web import SeleniumDriverService , SeleniumDriverServiceEvents
 from ..services.logger import LogLevels
 from datetime import datetime
 
@@ -16,7 +16,7 @@ class AmazonChatBot:
     def __init__(self, email, password):
         # self.connect = False
         self.bot_tg = telebot.TeleBot("5900799199:AAGggfpyJlSDP3Hl1SUmDTYj6ZNaf7Mvyrs")
-        self.browser = WebDriverService(self)
+        self.browser = SeleniumDriverService(self)
         self.logger = TgLogger()
         self.auth = AmazonAuthHandler(self)
         self.analize = Analize(self)
@@ -40,30 +40,30 @@ class AmazonChatBot:
 
     def notify(self , event):    
         match event:
-            case WebDriverServiceEvents.CHAT_IS_PAUSED:
+            case SeleniumDriverServiceEvents.CHAT_IS_PAUSED:
                 # make somehow chat open
                 # for example call `self.browser.click_on_start_new_chat_button()``
                 pass
-            case WebDriverServiceEvents.CONNECTED_TO_CHAT:
+            case SeleniumDriverServiceEvents.CONNECTED_TO_CHAT:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 self.logger.log(f'[{now_date_time}] : Connected to chat')
                 self.support_connect = True
                 self.send_message()
                 
                 
-            case WebDriverServiceEvents.SUPPORT_IS_SILENT:
+            case SeleniumDriverServiceEvents.SUPPORT_IS_SILENT:
 
                 if self.tries >= 3: self.skip()
 
                 else: self.ping_support_with_message()
 
-            case WebDriverServiceEvents.RED_WINDOW:
+            case SeleniumDriverServiceEvents.RED_WINDOW:
                 now_date_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
                 self.logger.log(f'[{now_date_time}] : Red window alert!' , LogLevels.ERROR_LEVEL)
                 # handle red window
                 # for example call `self.browser.reopen_new_chat()` or `self.auth.change_person()`
                 pass
-            case WebDriverServiceEvents.FEEDBACK_IS_OPENED:
+            case SeleniumDriverServiceEvents.FEEDBACK_IS_OPENED:
                 pass
 
     def run(self):
@@ -71,6 +71,7 @@ class AmazonChatBot:
             self.storage = AmazonStorage(self)
 
             self.browser.open_chat_window()
+#####################
             message_from_support = self.get_message_from_support()
 
             if self.support_ignores : continue

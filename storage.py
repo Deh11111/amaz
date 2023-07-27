@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from auth.account import check_start
+from services.auth import check_start
 
 class AmazonStorage:
     def __init__(self , mediator):
